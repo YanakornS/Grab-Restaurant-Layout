@@ -1,0 +1,44 @@
+
+p {
+  font-size: 25px;
+  text-align: center;
+  
+  
+}
+
+input { 
+  color: #000;
+  font-size: 18px;
+  border-radius: 22px;
+  height: 25px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  width: 1400px;
+}
+.Container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  font-family: arial;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 10px;
+}
+.card button {
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #0613cc;
+  width: 40%;
+  font-size: 18px;
+  margin-right: 150px;
+  
+}
+.card button:hover {
+  opacity: 0.7;
+}
